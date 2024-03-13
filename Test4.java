@@ -1,19 +1,13 @@
-package com.mar4;
-class A{
-	void show() {
-		System.out.println("This is show method");
-	}
-	void disp() {
-		this.show();
-		System.out.println("This is disp method");
-	}
-}
+package com.edubridge.decisionmaking;
 
 public class Test4 {
 
 	public static void main(String[] args) {
-		A a1=new A();
-		a1.disp();
+		int i=10;
+		do {
+			System.out.println(i);
+			i--;
+		}while(i>=1);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
 
 	}
 

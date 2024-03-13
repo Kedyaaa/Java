@@ -1,32 +1,16 @@
-package com.mar4;
-class Product{
-	String name;
-	int prize;
-	Product(){
-		name="HK";
-		System.out.println(name);
-	}
-	Product(String n,int m){
-		name=n;
-		prize=100;
-		System.out.println(name);
-		System.out.println(m);
-		
-	}
-	Product(int D,String OOdate,String RVdate){
-		D=D;
-		OOdate=OOdate;
-		RVdate=RVdate;
-		System.out.println("P");
-	}
-	
-}
+package com.edubridge.decisionmaking;
 
 public class Test3 {
 
 	public static void main(String[] args) {
-		
-		
+		int sum=0;
+		int i=1;
+		while(i<=5) {
+			sum=sum+i;
+			i++;
+			
+		}
+		System.out.println("Addition of Number:"+sum);
 
 	}
 
